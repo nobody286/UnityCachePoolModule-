@@ -1,0 +1,3 @@
+BaseManager.cs为一个不继承Mono的单例模式基类，PoolMgr.cs继承了它，所以其并不需要挂载到场景上。
+DelayRemove.cs是一个延迟销毁的脚本，请将其挂载到需要存入到缓存池的预制体中。
+预制体文件请存放在Asset/Resources中
